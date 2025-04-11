@@ -1,0 +1,88 @@
+#IMPORT Lt stdio.h Gt
+
+start()
+Begin
+	intg Var_a1? , Var_a2? ;;
+	Var_a1? := 10;;
+	Var_a2? := 20;;
+	//This is single line comment
+	isit ( Var_a1? eq 10 )
+	Begin
+		1 jog 2 ;;
+	End
+	//This is single line comment
+	isit ( Var_a1? eq 11 )
+	Begin
+		1 jog 2 ;;
+	End
+	or
+	Begin
+		1 jog 4 ;;
+	End
+	//This is single line comment
+	isit ( Var_a1? eq 13 )
+	Begin
+		isit(Var_a1? eq 13)
+		Begin
+			2 jog 5;;
+		End
+		or
+		Begin
+			2 jog 6;;
+		End
+		1 biyog 1;;
+	End
+	or
+	Begin
+		6 vag 3;;
+End
+forl ( 1 :: to 5) Begin
+	1 jog 2;;
+End
+
+while ( 5 Gt 3 )
+Begin
+	1 gun 2
+End
+
+	/*This is multiple line comment*/
+	isit (: 4 Gt 3:)
+   	Begin
+     		4 jog 3;;
+	End
+	orisit (: 4 eq 3 :)
+	Begin 
+      		4 gun 3;;
+	End
+	or
+	Begin
+		5 vag 3;;
+	End
+	/*This is multiple line comment*/
+
+	ODDEVEN(2);;
+	ODDEVEN(3);;
+	sin(90);;
+	cos(45);;
+	tan(30);;
+	log(2);;
+	squaroot(4);;
+	gcd(2,6);;
+	prime(9);;
+
+
+
+
+	switchto ( 100 ) Begin
+	case 100::
+	show( 100 jog 2);;
+	case 50::
+	show( 200 gun 3 );;
+	Builtin::
+	show( 2 vag 2);;
+	End;;
+	class Var_class1? Begin
+	2 vag 2;;
+	End;;
+End
+	

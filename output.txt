@@ -1,0 +1,63 @@
+add data a1 1
+add data a2 2
+
+valid declaration
+add data a1 10
+
+(a1) Value of the variable: 10	
+add data a2 20
+
+(a2) Value of the variable: 20	
+Variable value: a1 10
+
+value of expression in IF: 3
+Variable value: a1 10
+
+value of expression in ELSE: 5
+Variable value: a1 10
+Variable value: a1 10
+
+value of expression in else: 2
+for loop statement in 1 no. execution
+for loop statement in 2 no. execution
+for loop statement in 3 no. execution
+for loop statement in 4 no. execution
+While LOOP: 5 3
+5 
+4 
+3 
+
+value of the expression: 2
+
+value of expression in IF: 7
+Odd Even Number detection 
+Number : 2 is -> Even
+Odd Even Number detection 
+Number is :3 is -> Odd
+sin(90) is 1.00000
+cos(45) is 0.70739
+tan(30) is 0.57700
+log(2) is 0.69315
+square root of 4 is 2.000000
+G.C.D of 2 and 6 is 2
+9 is not a prime number.
+
+Print Expression 102
+Case No : 100
+
+Print Expression 600
+Case No : 50
+
+Print Expression 1
+
+Default case & expression value
+SWITCH CASE Declaration
+
+Finally Choose Case number :-> 100
+
+value of expression: 1
+class declared class1
+
+Successful compilation
+
+Header found

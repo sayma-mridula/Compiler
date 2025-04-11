@@ -1,0 +1,38 @@
+My Compiler Can Do:
+
+1. Module Management:
+   - Imports modules with syntax like `#IMPORT <header>`.
+
+2. Class and Function Support:
+   - Handles class declarations and functions like `start()`.
+
+3. Variable Handling:
+   - Declares and initializes variables with types (`intg`, `float`, `charac`, `long`).
+   - Detects duplicate declarations.
+
+4. Control Structures:
+   - Supports `if`, `elif`, `else`, `forl`, and `while` loops with nested conditions.
+
+5. Switch-Case Statements:
+   - Implements `switchto` with cases and a default (`Builtin`) case.
+
+6. Mathematical and Logical Operations:
+   - Performs arithmetic operations (`jog`, `biyog`, `gun`, `vag`) and includes logical operators (`eq`, `neq`, `Gt`, `Lt`).
+
+7. Built-In Functions:
+   - Includes utilities like `sin`, `cos`, `log`, `squaroot`, GCD, prime checks, and `ODDEVEN`.
+
+8. Input/Output:
+   - Uses `show` for output and `in` for input.
+
+9. Comment Recognition:
+   - Detects single-line (`//`) and multi-line (`/* ... */`) comments.
+
+10. Error Handling:
+    - Detects undeclared variables, division by zero, and syntax errors.
+
+11. Custom Syntax:
+    - Uses `Begin`/`End` for blocks, `;;` for statement terminators, and `::` for cases.
+
+12. Execution Results:
+    - Logs outputs of operations, loops, and conditions, ending with "Successful compilation" if error-free.
